@@ -1,0 +1,405 @@
+
+body {
+    background: #ededed none repeat scroll 0 0;
+    color: #363636;
+    font-family: "Open Sans",Arial,Tahoma;
+    font-size: 1em;
+    font-weight: 400;
+}
+.container {
+    background: #fff none repeat scroll 0 0;
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+#photo-header {
+    margin-top: -75px;
+}
+#photo {
+    background: #ededed none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 160px;
+    overflow: hidden;
+    padding: 5px;
+    width: 160px;
+}
+#photo img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#text-header h1 {
+    font-size: 2.4em;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+#text-header h1::first-line {
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: -4px;
+    line-height: 1.5em;
+}
+#text-header h1 span {
+    color: #db4128;
+}
+#text-header h1 sup {
+    opacity: 0.5;
+}
+#text-header::after {
+    background: rgba(0, 0, 0, 0) url("../img/line.png") repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.box {
+    margin-bottom: 15px;
+}
+.box h2 {
+    color: #4873C5;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*
+.box h2::before {
+    content: "//";
+    margin-right: 5px;
+}
+*/
+.box p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+#education {
+    list-style: outside none none;
+    margin-top: 20px;
+    padding: 1em 0;
+    position: relative;
+}
+#education::before {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #ffffff 0%, #4873C5 7%, #4873C5 89%, #ffffff 100%) repeat scroll 0 0;
+    content: " ";
+    display: block;
+    height: 100%;
+    left: 25px;
+    position: absolute;
+    top: 0;
+    width: 5px;
+}
+#education li {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+#education .year {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 10px;
+    width: 10%;
+}
+#education .description {
+    background: #eee none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 10px 0;
+    position: relative;
+    width: 80%;
+}
+#education .description::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent #eee transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 8px;
+    content: "";
+    height: 0;
+    left: -16px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 0;
+}
+#education .description h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+#education .description p {
+    font-size: 1.3em;
+    margin-top: 5px;
+    padding: 0;
+}
+.job {
+    margin-bottom: 15px;
+}
+.job .where {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.job .year {
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+.job .profession {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.job .description {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.contact-item {
+    float: left;
+    width: 100%;
+}
+.contact-item .icon {
+    border-bottom: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    opacity: 0.2;
+    padding: 10px;
+}
+.contact-item:last-child .icon {
+    border-bottom: medium none;
+}
+.contact-item .fa {
+    font-size: 2em;
+}
+.contact-item .title {
+    font-size: 1.5em;
+    font-weight: 700;
+    opacity: 0.9;
+    width: calc(100% - 55px);
+}
+.contact-item .title.only {
+    margin-top: 10px;
+}
+.contact-item .description {
+    font-size: 1.2em;
+    opacity: 0.7;
+    width: calc(100% - 55px);
+}
+.item-skills {
+    background: #0989e7 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 600;
+    height: 30px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.skills-legend {
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.skills-legend::before {
+    background: #c6c6c6 none repeat scroll 0 0;
+    content: " ";
+    display: block;
+    height: 3px;
+    margin-bottom: -13px;
+    position: relative;
+    width: 100%;
+}
+.skills-legend div {
+    color: #a9a9a9;
+    display: inline-block;
+    float: left;
+    font-size: 1.2em;
+    width: 25%;
+}
+.legend::before {
+    background: #c6c6c6 none repeat scroll 0 0;
+    content: " ";
+    display: block;
+    height: 10px;
+    margin: auto auto 15px;
+    position: relative;
+    width: 3px;
+}
+.legend-left.legend::before {
+    margin-left: 0;
+}
+.legend-right.legend::before {
+    margin-right: 0;
+}
+.legend-left:nth-child(2) span {
+    margin-left: -25px;
+}
+.legend-right:nth-child(3) span {
+    margin-right: -20px;
+}
+.legend-right {
+    text-align: right;
+}
+#language-skills .skill {
+    border-bottom: 1px solid #eee;
+    font-size: 1.3em;
+    margin: 10px 0;
+    padding-bottom: 10px;
+}
+#language-skills .skill .icons {
+    background: rgba(0, 0, 0, 0) url("../img/star-grey.png") no-repeat scroll 0 0;
+    height: 14px;
+    width: 111px;
+}
+#language-skills .skill .icons-red {
+    background: rgba(0, 0, 0, 0) url("../img/star-red.png") no-repeat scroll 0 0;
+}
+.hobby {
+    background: #a75265 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px 5px 5px 25px;
+    position: relative;
+}
+.hobby::before {
+    content: "";
+    font-family:FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    left: 7px;
+    position: absolute;
+    top: 6px;
+}
+@media (min-width: 500px) {
+    #education .description {
+        width: 85%;
+    }
+}
+@media (min-width: 768px) {
+    #education .description {
+        width: 85%;
+    }
+}
+@media (min-width: 992px) {
+    #education .description {
+        width: 87%;
+    }
+}
+@media (min-width: 1200px) {
+    #education .description {
+        width: 90%;
+    }
+}
+
+
+.breakline {
+    font-family: Calibri, "Helvetica", san-serif;
+    line-height: 1.5em;
+    color: black;
+    font-size: 20px;
+}
+
+.breakline:after
+{
+    content:' ';
+    display:block;
+    border:2px solid #0989e7;
+}
+
+.contact-item .title a{
+    color: inherit;
+}
+
+/*Animation of Cursor*/
+.typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.head-wrap {
+    margin: 30px auto;
+    text-align: center;
+    transition: all 0.5s ease-out 0s;
+}
+
+.shift-text {
+    margin: 10px auto 60px;;
+}
+.shift-text .text-body {
+    height: 120px;
+}
+.shift-text .tagline {
+    opacity: 0.9;
+}
+.text-editor-wrap {
+    border-radius: 10px;
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.8);
+    clear: both;
+    display: block;
+    margin: auto;
+    max-width: 530px;
+    overflow: hidden;
+    transition: all 0.5s ease-out 0s;
+}
+.title-bar {
+    background-color: #f8f8f8;
+    background-image: -moz-linear-gradient(center top , #e8e8e8, #bcbbbc);
+    border-bottom: 1px solid #6a6a6a;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7) inset;
+    font-family: "Lucida Grande",sans-serif;
+    font-size: 0.75em;
+    padding: 5px 0;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+.text-body {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #f0f0f0;
+    font-family: "Consolas","Courier New","Courier";
+    font-size: 1.75em;
+    font-weight: 500;
+    height: 250px;
+    line-height: 1.4em;
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 0 1px 0 #000;
+    transition: all 0.5s ease-out 0s;
+}
+
+.text-body h2{
+    text-align: center;
+}
