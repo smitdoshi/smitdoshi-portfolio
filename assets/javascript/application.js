@@ -33,7 +33,7 @@ window.onresize = function() {
 $(function(){
 
     $("#typed").typed({
-        strings: ["Actively seeking <em>Full Time Job Opportunities</em>.", "Experienced</> <em>Full Stack Developer</em>.", "<em>iOS Application Developer</em>.",
+        strings: ["Actively seeking <em>Full Time Job Opportunities</em>.", "Experienced: <em>Full Stack Developer</em>.", "<em>iOS Application Developer</em>.",
             "<em>Python Programmer.</em>","Worked in <em>Agile Model</em> and Knowledge of <em>Git</em>.", "Available for Immediate Hire<br>smitdoshi007@gmail.com  ||  <span>" +
             "Phone No: 424-999-2546</span>"],
         typeSpeed: 20,
