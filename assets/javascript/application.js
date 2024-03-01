@@ -33,9 +33,8 @@ window.onresize = function() {
 $(function(){
 
     $("#typed").typed({
-        strings: ["Actively seeking <em>Full Time Job Opportunities</em>.", "Experienced: <em>Full Stack Developer</em>.", "<em>iOS Application Developer</em>.",
-            "<em>Python Programmer.</em>","Worked in <em>Agile Model</em> and Knowledge of <em>Git</em>.", "Available for Immediate Hire<br>smitdoshi007@gmail.com  ||  <span>" +
-            "Phone No: 424-999-2546</span>"],
+        strings: ["Actively seeking <em>Full Time Job Opportunities</em>.", "Experienced: <em>Full Stack .Net Developer</em>.<br><em>Mobile Responsive UI Developer</em>.<br><em>NodeJS Web App Developer</em>.<br><em>iOS Application Developer</em>.<br><em>Python Programmer.</em>",
+            "Worked in <em>Agile Model</em> and Knowledge of <em>Azure</em>, <em>TFS</em>, <em>Bitbucket</em>, <em>GitHub</em>.", "Available for Immediate Hire<br>smitdev0110@gmail.com  ||  <span> Phone No: 424-999-2546</span> <br>"],
         typeSpeed: 20,
         callback: function(){
             shift();
